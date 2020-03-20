@@ -8,11 +8,11 @@ namespace DataManagementAPI.AuthenticationUtility
 
         public static ClientConfiguration Dev = new ClientConfiguration()
         {
-            UriString = "https://tjdev14f7ac1a0708ac504fdevaos.cloudax.dynamics.com/",
-            ActiveDirectoryResource = "https://tjdev14f7ac1a0708ac504fdevaos.cloudax.dynamics.com",
+            UriString = "https://<environment>.cloudax.dynamics.com/",
+            ActiveDirectoryResource = "https://<environment>.cloudax.dynamics.com",
             ActiveDirectoryTenant = "https://login.microsoftonline.com/microsoft.com",
-            ActiveDirectoryClientAppId = "6a83cbe4-def8-466c-bba8-25174428823e",
-            ActiveDirectoryClientAppSecret = "[Qk2Vabmq8g?p.:RpQERXx41imnYjn:a",
+            ActiveDirectoryClientAppId = "",
+            ActiveDirectoryClientAppSecret = "",
         };
 
 
